@@ -6,8 +6,12 @@ import java.awt.event.ActionListener;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class ApplestoreFrame implements ActionListener {
+public class ApplestoreFrame extends JFrame implements ActionListener {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JFrame frame;
 	private JPanel panel;
 	private JButton button1;
@@ -41,9 +45,9 @@ public class ApplestoreFrame implements ActionListener {
 																	// to a new HashMap to be used in this class
 	HashMap<String, Integer> macmap = accessmaps.getmachashmap();
 	HashMap<String, Integer> accessoriesmap = accessmaps.getaccesoriesmap();
-
-	public void Framee() {
-
+	
+	public ApplestoreFrame() {
+		super();
 		updatearraylength(iphonemap.size());// pass value into iPhone array method to set its size
 		updatemacarray(macmap.size());// pass value into Mac array method to set its size
 
