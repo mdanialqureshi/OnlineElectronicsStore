@@ -1,4 +1,5 @@
 #Electronics Store Application
+
 GUI based Electronics store developed in Java.
 
 This is a GUI based application that allows a user to search through a provided electronics store inventory.
