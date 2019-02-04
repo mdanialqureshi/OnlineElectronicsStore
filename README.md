@@ -1,4 +1,4 @@
-# ElectronicsStoreApplication
+# Electronics Store Application
 
 GUI based Electronics store developed in Java.
 
