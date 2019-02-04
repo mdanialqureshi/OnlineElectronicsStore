@@ -4,7 +4,7 @@ GUI based Electronics store developed in Java.
 
 This is a GUI based application that allows a user to search through a provided electronics store inventory.
 
-## Walk-through
+## Walkthrough
 After launching the application the user is prompted to enter the store.
 
 • User is able to select a range of shopping categories including phones, laptops, and accessories.
